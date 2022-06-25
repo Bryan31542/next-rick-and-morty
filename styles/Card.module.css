@@ -1,0 +1,93 @@
+.character-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.character-card {
+    margin: 0.5rem;
+}
+
+.card {
+    background-color: #444444;
+    margin: auto;
+    border-radius: 20px;
+    width: 27rem;
+    height: 15rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-title {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-image {
+    flex: 1;
+    margin: auto;
+}
+
+.card-body {
+    flex: 1;
+    color: #ffffff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.card-status{
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+    margin-left: 1.5rem;
+    border-radius: 20px;
+}
+
+.card-main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-location-head {
+    margin: 0;
+    font-size: 1rem;
+    padding-bottom: 0.2rem;
+}
+
+.card-location-text {
+    margin: 0;
+    padding-bottom: 0.2rem;
+}
+
+.heart-icon {
+    height: 16px;
+    width: 20px;
+    color: #DA0037;
+    margin-right: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.alive {
+    color: #00FF00;
+    height: 16px;
+    width: 20px;
+    margin-right: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.status {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
