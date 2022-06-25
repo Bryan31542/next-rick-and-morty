@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+import Link from 'next/link'
 import styles from "../styles/Home.module.css";
 
 export default function HomePage() {
@@ -15,9 +15,9 @@ export default function HomePage() {
           <h1 className={styles.title}>Welcome to Rick and Morty Web</h1>
           <p className={styles.url}>
             Click here to see all the{" "}
-            <a className={styles.url_blue} href="/characters">
+            <Link className={styles.url_blue} href="/characters">
               characters
-            </a>
+            </Link>
           </p>
         </main>
       </div>
