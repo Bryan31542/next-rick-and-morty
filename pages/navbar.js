@@ -6,7 +6,10 @@ const Navbar = () => {
     <nav className={styles["app-nav"]}>
       <div className={styles["title-bg"]}>
         <Link href="/">
-          <p className={styles.title}> Rick and Morty </p>
+          <p className={styles.title}>
+            {" "}
+            <span>Rick and Morty </span>
+          </p>
         </Link>
       </div>
     </nav>
